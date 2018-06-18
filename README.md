@@ -1,6 +1,6 @@
 # Build Docker Image
 
-git pull https://github.com/aliouba/flask-ci-demo.git
+git clone https://github.com/aliouba/flask-ci-demo.git
 
 cd flask-ci-demo
 

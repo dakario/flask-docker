@@ -4,7 +4,7 @@ git clone https://github.com/aliouba/flask-ci-demo.git
 
 cd flask-ci-demo
 
-docker build -t flask-demo:latest 
+docker build -t flask-demo:latest .
 
 # Start Flask Container
 

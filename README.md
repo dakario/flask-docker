@@ -2,7 +2,7 @@
 
 git clone https://github.com/aliouba/flask-docker.git
 
-cd flask-ci-demo
+cd flask-docker
 
 docker build -t flask-demo:latest .
 

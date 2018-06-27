@@ -22,7 +22,7 @@ docker push localhost:5000/flask-demo:latest
 
 docker run -d -p 80:80 --name flask1 localhost:5000/flask-demo:latest
 
-# Rebuild
+# Change code, rebuild and push image to registry
 
 docker build -t flask-demo:latest
 

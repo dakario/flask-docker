@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return "Hello Dakar Inno Day. "+ socket.gethostname()
+    return "Hello Dakar Innovation Day. "+ socket.gethostname()
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0')
+    app.run(debug=True,host='0.0.0.0',, port=80)

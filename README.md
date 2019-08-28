@@ -1,7 +1,7 @@
 # Pull code
 
 ```
-git clone https://github.com/aliouba/flask-docker.git
+git clone https://github.com/dakario/flask-docker.git
 cd flask-docker
 ```
 

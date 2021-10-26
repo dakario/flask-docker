@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Aliou BA "alioubafr@gmail.com"
+LABEL maintainer=”Aliou BA” email=“aliou.ba@beopenit.com”
 RUN apt-get update -y
 RUN apt-get install -y python3 python3-pip python3-dev build-essential
 COPY . /app

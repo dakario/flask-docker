@@ -44,3 +44,5 @@ docker rm -f flask1
 docker run -d -p 80:80 --name flask1 flask-demo
 ```
 
+# 6 Test ENTRYPOINT with CMD
+docker run --name demo1 -p 1080:80  -d  flask-demo --app formation run --host=0.0.0.0 --port=80
